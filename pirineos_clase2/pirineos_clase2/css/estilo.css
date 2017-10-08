@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333333;
+    
+    width: 80%;
+    /*margin: 0 auto; /*centro la imagen */
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+.cabecera {
+
+    background-image: url('../img/logo.jpg');
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 7em; /* centrar el texto */
+}
+
+.cuerpo{
+    font-size: 0.7em;
+    background-color: #FFFF55;
+    overflow: hidden;
+}
+
+.izquierda{
+   
+    width: 35%;
+    float: left;
+    
+}
+.izquierda h2{
+    color: #BE1263;
+    margin-top: 0.7em;
+}
+
+.buscadores {
+    background-color: white;
+    border: 1px solid black;
+    margin: 1em; /* Preguntar */
+    width: 30%;
+    min-width: 6em;
+}
+
+.buscadores a{
+    padding: 1em .3em;
+    display: block;
+}
+
+.buscadores a:hover{
+    background-color: aqua;
+}
+
+.derecha{
+    margin-left: 36%;
+    background-color: bisque;
+    
+
+}
+
+.derecha h2{
+    color: #D87FB3;
+    background-color: white;
+}
+
+.derecha p{
+    width: 50%;
+}
+
+.derecha p:first-of-type{
+    width: 100%;
+}
+
+.derecha img{
+    border: 1px solid black;
+    padding: 3px;
+    background-color: white;
+    margin-top: 1em;
+    vertical-align: middle;
+}
+
+.margensup{
+    margin-top: 1em;
+}
+
+.pie{
+    background-color: green;
+    font-size: 0.7em;
+    color:white;    
+}
+.pie a{
+    border-right: 2px solid white;
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.pie li, .pie ul{
+    display: inline-block;
+}
+
+.pie span{
+    float:right;
+}
+
+.limpiar{
+    clear: right;
+}
+
+img{
+    width: 40%;
+    float: right;
+}
+
+@media screen and (max-width:500px){
+    .izquierda{
+        background-color: orange;
+    }
+    .izquierda h2{
+        font-size: 0.3em;
+    }
+}
