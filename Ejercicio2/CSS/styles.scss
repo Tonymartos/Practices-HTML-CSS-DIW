@@ -1,0 +1,101 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+header{
+    border-bottom: 1px dotted black;
+}
+
+#encabezado h1{
+    color: #51015C;
+}
+
+#encabezado img{
+    float: right;
+}
+
+#encabezado span{
+    font-size: 0.7em;
+}
+
+#destacado {
+    background-color: rgb(224, 224, 224);
+    padding: 10%;
+}
+
+.destacado img{
+    float: left;
+    margin-right: 3em;
+}
+
+#seccionesdestacados{
+    border-bottom: 2px dashed black;
+    height: 30%;
+    margin: 0 auto;
+}
+
+#seccionesdestacados h3{
+    color: red;
+}
+
+#seccionesdestacados input{
+    color: red;
+}
+
+#seccionesdestacados img{
+    float: left;
+}
+
+
+.secciones{
+    margin: auto;
+}
+
+.seccionuno{
+  float: left;
+  width: 30%;
+  display: inline-block;
+}
+
+.secciondos{
+  width: 30%;
+  display: inline-block;    
+}
+
+.secciontres{
+  width: 30%;
+  display: inline-block;    
+}
+
+#imagenes{
+    margin: 1.5em;
+}
+
+#imagenes img{
+    margin: auto;
+    padding: 0.3em;
+    border: 1px solid black;
+}
+
+#piedepagina{
+    background-color: rgb(224, 224, 224);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+
+#piedepagina p{
+    line-height: 2%;
+    display: inline;
+}
+
+#piedepagina span{
+    line-height: 2%;
+    float: right;
+}
+
+#limpiar{
+    clear: both;
+}

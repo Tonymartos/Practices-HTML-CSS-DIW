@@ -1,66 +1,108 @@
-body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
+/* line 1, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; }
 
-header{
-    border-bottom: 1px dotted black;
-}
+/* line 7, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+header {
+  border-bottom: 1px dotted black; }
 
-.titulo img{
-    float: right;
-}
+/* line 11, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#encabezado h1 {
+  color: #51015C; }
 
+/* line 15, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#encabezado img {
+  float: right; }
+
+/* line 19, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#encabezado span {
+  font-size: 0.7em; }
+
+/* line 23, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 #destacado {
-    background-color: rgb(224, 224, 224);
-    padding: 10%;
+  background-color: #e0e0e0;
+  padding: 10%; }
+
+/* line 28, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#destacado img {
+  float: left;
+  margin-right: 3em; }
+
+/* line 33, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#seccionesdestacados {
+  border-bottom: 2px dashed black;
 }
 
-#destacado img{
-    float: left;
-    margin-right: 3em;
+.secciones{
+    margin-bottom: 0.7em;
+    margin-left:0;
+    margin-right: 0;
 }
 
-#secciones{
-    border-bottom: 2px dashed black;
+/* line 37, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+.secciones h3 {
+  color: red; 
 }
 
-#secciones h3{
-    color: red;
+/* line 41, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+.secciones input {
+  color: red; 
 }
 
-#secciones input{
-    color: red;
+/* line 45, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#secciones img {
+  float: left; }
+
+.seccionuno{
+  float: left;
+  width: 30%;
+  display: inline-block;
 }
 
-#secciones img{
-    float: left;
+
+.secciondos{
+  width: 30%;
+  display: inline-block;    
 }
 
-#imagenes{
-
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: inline;
-
+.secciontres{
+  width: 30%;
+  display: inline-block;    
 }
+/* line 58, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+.seccion img {
+  float: left; }
 
-#imagenes img{
-    padding: 0.3em;
-    border: 1px solid black;
-}
+/* line 62, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+.seccion p {
+  width: 30%; }
 
-#piedepagina{
-    background-color: rgb(224, 224, 224);
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
+/* line 66, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#imagenes {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%; }
 
-#piedepagina p{
-    display: inline;
-}
+/* line 74, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#imagenes img {
+  padding: 0.3em;
+  border: 1px solid black; }
 
-#piedepagina span{
-    float: right;
-}
+/* line 79, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#piedepagina {
+  background-color: #e0e0e0;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+
+/* line 85, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#piedepagina p {
+  display: inline; }
+
+/* line 89, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+#piedepagina span {
+  float: right; }
+
+/*# sourceMappingURL=styles.css.map */
