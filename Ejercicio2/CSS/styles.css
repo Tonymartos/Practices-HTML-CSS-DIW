@@ -2,7 +2,7 @@
 body {
   margin-left: auto;
   margin-right: auto;
-  width: 75%; }
+  width: 90%; }
 
 /* line 7, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 header {
@@ -14,7 +14,9 @@ header {
 
 /* line 15, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 #encabezado img {
-  float: right; }
+  float: right;
+  width: 30%;
+}
 
 /* line 19, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 #encabezado span {
@@ -23,12 +25,28 @@ header {
 /* line 23, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 #destacado {
   background-color: #e0e0e0;
-  padding: 10%; }
+  padding: 10%; 
+  box-sizing: border-box;
+  
+}
 
 /* line 28, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
-#destacado img {
+.imagendestacado img{
   float: left;
-  margin-right: 3em; }
+  width: 30%;
+  box-sizing: border-box;
+  margin-right: 1.5em;
+}
+
+.textodestacado h2{
+  font-size: 2.5em;
+  display: inline;
+}
+
+.textodestacado{
+  box-sizing: border-box;
+  
+}
 
 /* line 33, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 #seccionesdestacados {
@@ -52,25 +70,30 @@ header {
 }
 
 /* line 45, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
-#secciones img {
-  float: left; }
+.secciones img {
+  float: left;
+  margin: 0.5em; }
 
+  
 .seccionuno{
   float: left;
   width: 30%;
+  padding: 0.3em;
   display: inline-block;
 }
 
-
 .secciondos{
   width: 30%;
+  padding: 0.3em;  
   display: inline-block;    
 }
 
 .secciontres{
   width: 30%;
+  padding: 0.3em;
   display: inline-block;    
 }
+
 /* line 58, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 .seccion img {
   float: left; }
@@ -78,6 +101,10 @@ header {
 /* line 62, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 .seccion p {
   width: 30%; }
+
+.secciones img{
+    float: left;
+}
 
 /* line 66, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 #imagenes {
@@ -99,10 +126,52 @@ header {
 
 /* line 85, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 #piedepagina p {
-  display: inline; }
+  display: inline;
+  line-height: 3em;
+}
+
 
 /* line 89, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
 #piedepagina span {
-  float: right; }
+  float: right;
+  line-height: 3em;
+}
+
+#limpiar{
+    clear: both;
+}
+
+@media (max-width: 500px) {
+  #destacado h2{
+    font-size: 1.5em ;
+  }
+  #destacado img{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .secciones{
+    font-size: 0.7em;
+  }
+
+  .secciones input{
+    font-size: 0.7em;
+    
+  }
+
+  
+  
+  }
+
+
+  @media (max-width: 600px){
+    #piedepagina{
+      font-size: 0.7em;
+    }
+    #piedepagina span{
+      vertical-align: bottom;
+      background-color: #e0e0e0;
+      
+    }
+  }
 
 /*# sourceMappingURL=styles.css.map */
