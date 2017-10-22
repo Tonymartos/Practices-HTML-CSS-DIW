@@ -1,0 +1,37 @@
+@include ("componentes/_variables");
+
+//reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: auto;
+    width: $ancho_cabecera;
+    ul{
+        list-style: $estilo_lista;
+    }
+    li{
+        padding-left: $padding_lados;
+        padding-right: $padding_lados;
+        border-right: $borde;
+        display: inline;
+    }
+}
+    .info{
+        float: right;
+        p{
+        display:inline;
+        }
+    }
+body{
+    margin: auto;
+}
+    .imagendestacado{
+        img{
+            width: $ancho_imagendestacado;
+        }
+    }
+    

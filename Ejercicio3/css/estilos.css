@@ -1,0 +1,28 @@
+/* line 2, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 9, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+header {
+  margin: auto;
+  width: 75%; }
+  /* line 13, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+  header ul {
+    list-style: none; }
+  /* line 16, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+  header li {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    border-right: 1px solid black;
+    display: inline; }
+
+/* line 23, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.info {
+  float: right; }
+  /* line 25, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+  .info p {
+    display: inline; }
+
+/*# sourceMappingURL=estilos.css.map */
