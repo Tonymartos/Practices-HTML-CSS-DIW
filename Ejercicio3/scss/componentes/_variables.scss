@@ -1,20 +1,50 @@
-//Variables globales
+//  VARIABLES GLOBALES
+    $automargen: auto;
+    $derecha: right;
+    $colornegro: #000000;
+    $colorblanco: #FFFFFF;
+    $centrar: center;
+    $alinear: inline;
+    $alinearbloque: inline-block;
+    $ninguno: none;
+//----------------------------
 
+//VARIABLES CABECERA
+    $anchoinfo: 40%;
+    $ancho_cabecera: 75%;
 
-//Variables cabecera
-$ancho_cabecera: 75%;
-$estilo_lista: none;
-$padding_lados: 0.8em;
-$borde_menu: 1px solid black;
-//Fin cabecera
+//FIN CABECERA
 
-//Variables body
-$ancho_imagendestacado: 100%;
+//MENU
+    $ancholetra: 1.1em;
+    $estilo_lista: none;
+    $padding_lados: 0.8em;
+    $lineado: inline;
+    $bordederecho_menu: 1px solid grey;
+    $bordeabajo_hover: 2px solid green;
+    $colormenu: green;
+//Fin-MENU
 
+//MENU AL PASAR EL RATON
+    
+//FIN - MENU RATON
 
+//Variables imagen destacado
+    $ancho_imagendestacado: 100%;
 //Fin Body
 
+//Variables columnas
+    $colorh2: #026d38;
+    $letrah2: "custom-two";
+    $linearbloques: inline-block;
+    $anchocolumna: 30%;
+    $aespacioboton: 0.7em;
+//Fin columnas
+
 //Variables footer
-
-
+    $bordeabajopost: 20px solid #3d3d3d;
+    $colorfondo: #204530;
+    $anchoimagen: 30%;
+    $bordeabajopost: 1px solid #474747;
+    $ancholadosf: 0.7em;
 //Fin Footer

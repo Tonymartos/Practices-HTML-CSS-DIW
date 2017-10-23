@@ -1,28 +1,155 @@
-/* line 2, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+/* line 3, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/* line 9, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?569gf1");
+  src: url("../fonts/icomoon.eot?569gf1#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?569gf1") format("truetype"), url("../fonts/icomoon.woff?569gf1") format("woff"), url("../fonts/icomoon.svg?569gf1#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 20, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 36, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.icon-phone:before {
+  content: "\e942"; }
+
+/* line 40, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.icon-envelop:before {
+  content: "\e945"; }
+
+/* line 44, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.icon-facebook2:before {
+  content: "\ea91"; }
+
+/* line 48, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.icon-twitter:before {
+  content: "\ea96"; }
+
+/* line 52, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
 header {
   margin: auto;
   width: 75%; }
-  /* line 13, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
-  header ul {
-    list-style: none; }
-  /* line 16, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
-  header li {
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    border-right: 1px solid black;
-    display: inline; }
 
-/* line 23, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+/* line 58, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.menu ul {
+  list-style: none; }
+
+/* line 61, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.menu li {
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  border-right: 1px solid grey;
+  display: inline;
+  font-size: 1.1em; }
+
+/* line 68, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.menu a {
+  text-decoration: none;
+  color: green; }
+
+/* line 72, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.menu a:hover {
+  border-bottom: 2px solid green;
+  color: #000000; }
+
+/* line 78, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
 .info {
-  float: right; }
-  /* line 25, /home/tony/Proyectos/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+  float: right;
+  width: 40%; }
+  /* line 81, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
   .info p {
     display: inline; }
+
+/* line 86, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+body {
+  margin: auto; }
+
+/* line 90, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.imagendestacado img {
+  width: 100%; }
+
+/* line 96, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.columnas h2 {
+  color: #026d38;
+  font-family: "custom-two";
+  text-align: center; }
+
+/* line 101, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.columnas p {
+  text-align: center; }
+
+/* line 106, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.columna {
+  text-align: center;
+  width: 30%;
+  display: inline-block; }
+  /* line 111, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+  .columna input {
+    margin-top: 0.7em; }
+
+/* line 115, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.anteriorpost {
+  border-bottom: 1px solid #474747; }
+
+/* line 119, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+footer {
+  background-color: #204530; }
+
+/* line 122, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.columnafooterimg {
+  margin-top: 1%;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  margin-bottom: 10%;
+  display: inline-block; }
+  /* line 128, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+  .columnafooterimg img {
+    width: 30%; }
+
+/* line 133, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.columnafooter {
+  margin-top: 1%;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  color: #FFFFFF;
+  display: inline-block; }
+
+/* line 140, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.anteriopost {
+  border-bottom: 1px solid #474747; }
+
+/* line 144, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.columnasfooter {
+  border-bottom: 1px solid #474747; }
+
+/* line 150, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.copyright p {
+  display: inline; }
+
+/* line 156, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.privacidad ul {
+  display: inline;
+  list-style: none; }
+
+/* line 161, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio3/scss/estilos.scss */
+.privacidad li {
+  display: inline-block; }
 
 /*# sourceMappingURL=estilos.css.map */

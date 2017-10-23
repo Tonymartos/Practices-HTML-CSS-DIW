@@ -1,37 +1,164 @@
-@include ("componentes/_variables");
-
+@import "componentes/_variables";
 //reset
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    margin: auto;
-    width: $ancho_cabecera;
-    ul{
-        list-style: $estilo_lista;
-    }
-    li{
-        padding-left: $padding_lados;
-        padding-right: $padding_lados;
-        border-right: $borde;
-        display: inline;
-    }
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?569gf1');
+    src: url('../fonts/icomoon.eot?569gf1#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?569gf1') format('truetype'),
+    url('../fonts/icomoon.woff?569gf1') format('woff'),
+    url('../fonts/icomoon.svg?569gf1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-    .info{
-        float: right;
-        p{
-        display:inline;
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+    .icon-phone:before {
+        content: "\e942";
+    }
+
+    .icon-envelop:before {
+        content: "\e945";
+    }
+
+    .icon-facebook2:before {
+        content: "\ea91";
+    }
+
+    .icon-twitter:before {
+        content: "\ea96";
+    }
+
+header {
+    margin: $automargen;
+    width: $ancho_cabecera;
+}
+
+    .menu {
+        ul {
+            list-style: $estilo_lista;
+        }
+        li {
+            padding-left: $padding_lados;
+            padding-right: $padding_lados;
+            border-right: $bordederecho_menu;
+            display: $lineado;
+            font-size: $ancholetra;
+        }
+        a {
+            text-decoration: $ninguno;
+            color: $colormenu
+        }
+        a:hover {
+            border-bottom: $bordeabajo_hover;
+            color: $colornegro;
         }
     }
-body{
-    margin: auto;
+
+    .info {
+        float: $derecha;
+        width: $anchoinfo;
+        p {
+            display: $alinear;
+        }
+    }
+
+body {
+    margin: $automargen;
 }
-    .imagendestacado{
-        img{
+    .imagendestacado {
+        img {
             width: $ancho_imagendestacado;
         }
     }
-    
+
+    .columnas {
+        h2 {
+            color: $colorh2;
+            font-family: $letrah2;
+            text-align: $centrar;
+        }
+        p{
+            text-align: $centrar;
+        }
+    }
+
+    .columna {
+        text-align: $centrar;
+        width: $anchocolumna;
+        display: $linearbloques;
+        
+        input {
+            margin-top: $aespacioboton;
+        }
+    }
+    .anteriorpost{
+        border-bottom: $bordeabajopost;
+    }
+
+footer {
+    background-color: $colorfondo;
+}
+    .columnafooterimg{
+        margin-top: 1%;
+        margin-left: $ancholadosf;
+        margin-right: $ancholadosf;
+        margin-bottom: 10%;
+        display:  $alinearbloque;
+        img{
+        width: $anchoimagen;
+        }
+    }
+
+    .columnafooter {
+        margin-top: 1%;
+        margin-left: $ancholadosf;
+        margin-right: $ancholadosf;
+        color: $colorblanco;
+        display:  $alinearbloque;
+    }
+    .anteriopost{
+        border-bottom: $bordeabajopost;
+    }
+
+    .columnasfooter{
+        border-bottom: $bordeabajopost;
+
+    }
+
+    .copyright {
+        p{
+        display:  $alinear;
+        }
+    }
+
+    .privacidad {
+        ul {
+            display: $alinear;
+            list-style: $ninguno;
+        }
+        
+        li {
+            display: $alinearbloque;
+        }
+    }

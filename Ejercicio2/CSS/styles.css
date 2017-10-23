@@ -1,177 +1,105 @@
-/* line 1, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 1, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 body {
   margin-left: auto;
   margin-right: auto;
-  width: 90%; }
+  width: 75%; }
 
-/* line 7, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 7, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 header {
   border-bottom: 1px dotted black; }
 
-/* line 11, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 11, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #encabezado h1 {
   color: #51015C; }
 
-/* line 15, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 15, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #encabezado img {
-  float: right;
-  width: 30%;
-}
+  float: right; }
 
-/* line 19, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 19, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #encabezado span {
   font-size: 0.7em; }
 
-/* line 23, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 23, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #destacado {
   background-color: #e0e0e0;
-  padding: 10%; 
-  box-sizing: border-box;
-  
-}
+  padding: 10%; }
 
-/* line 28, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
-.imagendestacado img{
+/* line 28, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+.destacado img {
   float: left;
-  width: 30%;
-  box-sizing: border-box;
-  margin-right: 1.5em;
-}
+  margin-right: 3em; }
 
-.textodestacado h2{
-  font-size: 2.5em;
-  display: inline;
-}
-
-.textodestacado{
-  box-sizing: border-box;
-  
-}
-
-/* line 33, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 33, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #seccionesdestacados {
   border-bottom: 2px dashed black;
-}
+  height: 30%;
+  margin: 0 auto; }
 
-.secciones{
-    margin-bottom: 0.7em;
-    margin-left:0;
-    margin-right: 0;
-}
+/* line 39, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+#seccionesdestacados h3 {
+  color: red; }
 
-/* line 37, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
-.secciones h3 {
-  color: red; 
-}
+/* line 43, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+#seccionesdestacados input {
+  color: red; }
 
-/* line 41, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
-.secciones input {
-  color: red; 
-}
-
-/* line 45, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
-.secciones img {
-  float: left;
-  margin: 0.5em; }
-
-  
-.seccionuno{
-  float: left;
-  width: 30%;
-  padding: 0.3em;
-  display: inline-block;
-}
-
-.secciondos{
-  width: 30%;
-  padding: 0.3em;  
-  display: inline-block;    
-}
-
-.secciontres{
-  width: 30%;
-  padding: 0.3em;
-  display: inline-block;    
-}
-
-/* line 58, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
-.seccion img {
+/* line 47, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+#seccionesdestacados img {
   float: left; }
 
-/* line 62, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
-.seccion p {
-  width: 30%; }
+/* line 52, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+.secciones {
+  margin: auto; }
 
-.secciones img{
-    float: left;
-}
+/* line 56, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+.seccionuno {
+  float: left;
+  width: 30%;
+  display: inline-block; }
 
-/* line 66, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 62, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+.secciondos {
+  width: 30%;
+  display: inline-block; }
+
+/* line 67, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+.secciones img {
+  float: left; }
+
+/* line 71, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+.secciontres {
+  width: 30%;
+  display: inline-block; }
+
+/* line 76, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #imagenes {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+  margin: 1.5em; }
 
-/* line 74, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 80, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #imagenes img {
+  margin: auto;
   padding: 0.3em;
   border: 1px solid black; }
 
-/* line 79, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 86, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #piedepagina {
   background-color: #e0e0e0;
   padding-left: 0.5em;
   padding-right: 0.5em; }
 
-/* line 85, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 93, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #piedepagina p {
-  display: inline;
-  line-height: 3em;
-}
+  line-height: 2%;
+  display: inline; }
 
-
-/* line 89, /media/tony/TONY/DAW/DIW/Ejercicios Clase/Ejercicio2/CSS/styles.scss */
+/* line 98, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
 #piedepagina span {
-  float: right;
-  line-height: 3em;
-}
+  line-height: 2%;
+  float: right; }
 
-#limpiar{
-    clear: both;
-}
-
-@media (max-width: 500px) {
-  #destacado h2{
-    font-size: 1.5em ;
-  }
-  #destacado img{
-    width: 50%;
-    margin: 0 auto;
-  }
-  .secciones{
-    font-size: 0.7em;
-  }
-
-  .secciones input{
-    font-size: 0.7em;
-    
-  }
-
-  
-  
-  }
-
-
-  @media (max-width: 600px){
-    #piedepagina{
-      font-size: 0.7em;
-    }
-    #piedepagina span{
-      vertical-align: bottom;
-      background-color: #e0e0e0;
-      
-    }
-  }
+/* line 103, /media/tony/Almacenamiento/GitHub/Practices-HTML-CSS-DIW/Ejercicio2/CSS/styles.scss */
+#limpiar {
+  clear: both; }
 
 /*# sourceMappingURL=styles.css.map */
