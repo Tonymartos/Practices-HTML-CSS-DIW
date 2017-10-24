@@ -34,12 +34,18 @@
 //Fin Body
 
 //Variables columnas
-    $colorh2: #026d38;
+
+    $colorh2: #026d38;    
     $letrah2: "custom-two";
+//Fin columnas
+//Variables columna
     $linearbloques: inline-block;
     $anchocolumna: 30%;
     $aespacioboton: 0.7em;
-//Fin columnas
+    $margentop: 0.7em;
+    $margenbottom: 0.7em;
+    $alineavertical: text-top;
+//
 
 //Variables footer
     $bordeabajopost: 20px solid #3d3d3d;
@@ -49,3 +55,7 @@
     $ancholadosf: 0.7em;
     $bordearribaf: 2px solid white;
 //Fin Footer
+
+//Variables infocopyright
+    $margentopinfcopy: 0.7em;
+//Fin infocopyright
