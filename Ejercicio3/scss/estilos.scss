@@ -62,7 +62,7 @@ header {
             padding-left: $padding_lados;
             padding-right: $padding_lados;
             border-right: $bordederecho_menu;
-            display: $lineado;
+            display: $linearbloques;
             font-size: $ancholetra;
         }
         a {
@@ -104,12 +104,22 @@ body {
     }
 
     .columna {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        vertical-align: text-top;
         text-align: $centrar;
         width: $anchocolumna;
         display: $linearbloques;
-        
+
         input {
             margin-top: $aespacioboton;
+            background-color: green;
+            border-radius: 0.5em;
+            padding-top: 0.4em;
+            padding-bottom: 0.4em;
+            padding-left: 1em;
+            padding-right: 1em;
+            color: white;
         }
     }
     .anteriorpost{
@@ -119,6 +129,10 @@ body {
 footer {
     background-color: $colorfondo;
 }
+    .columnasfooter{
+        margin: auto;
+    }
+    
     .columnafooterimg{
         margin-top: 1%;
         margin-left: $ancholadosf;
@@ -137,6 +151,7 @@ footer {
         color: $colorblanco;
         display:  $alinearbloque;
     }
+
     .anteriopost{
         border-bottom: $bordeabajopost;
     }
@@ -157,8 +172,13 @@ footer {
             display: $alinear;
             list-style: $ninguno;
         }
-        
+
         li {
             display: $alinearbloque;
+        }
+        
+        a{
+            border-top: $bordearribaf;
+            color:$colornegro;
         }
     }
