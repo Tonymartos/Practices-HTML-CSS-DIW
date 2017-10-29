@@ -1,0 +1,51 @@
+/* line 3, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 9, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+#info {
+  margin: auto;
+  width: 85%; }
+
+/* line 15, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+#imgs img {
+  display: inline-block; }
+
+/* line 20, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+#telefono {
+  float: right; }
+
+/* line 28, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+#menu nav {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: blue; }
+
+/* line 33, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+#menu li {
+  display: inline-block;
+  padding-left: 0.6em; }
+
+/* line 37, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+#menu a {
+  text-decoration: none;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+/* line 44, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+#menu a:hover {
+  background-color: orange; }
+
+/* line 49, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+body {
+  margin: 0 auto; }
+
+/* line 55, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio4/scss/style.scss */
+#columna img {
+  display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */
