@@ -1,0 +1,129 @@
+/* line 3, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 9, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+header {
+  padding: 1%;
+  background-color: #2D3E50; }
+  /* line 13, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+  header h1 {
+    display: inline-block; }
+
+/* line 18, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.cabecera {
+  margin: auto;
+  padding: 0.7em; }
+
+/* line 23, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.menu {
+  background-color: #C1392B;
+  float: right;
+  display: inline-block; }
+  /* line 28, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+  .menu a {
+    text-decoration: none;
+    color: #FFFF; }
+  /* line 33, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+  .menu li {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    color: #FFFF;
+    list-style: none;
+    display: inline-block; }
+
+/* line 47, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.columnaleft {
+  width: 75%;
+  display: inline-block;
+  padding: 0.5em; }
+
+/* line 53, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.textouno {
+  border-bottom: 1px solid black;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+/* line 59, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.textodos {
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+/* line 64, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.columnaright {
+  float: right;
+  width: 25%;
+  display: inline-block;
+  background-color: #E67F22; }
+
+/* line 71, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.cuadrouno {
+  background-color: #D25400; }
+
+/* line 75, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.cuadrodos {
+  background-color: #D25400; }
+
+/* line 80, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.columnaright::after {
+  clear: both; }
+
+/* line 84, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+footer::before {
+  clear: both; }
+
+/* line 88, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+footer {
+  padding: 1%;
+  background-color: #2D3E50; }
+  /* line 92, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+  footer h1 {
+    display: inline-block; }
+
+/* line 97, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.cuerpofooter {
+  margin: auto;
+  padding: 0.7em; }
+
+/* line 102, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.footerleft {
+  background-color: #C1392B;
+  display: inline-block; }
+  /* line 106, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+  .footerleft a {
+    text-decoration: none;
+    color: #FFFF; }
+  /* line 111, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+  .footerleft li {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    color: #FFFF;
+    list-style: none;
+    display: inline-block; }
+
+/* line 123, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+.footerright {
+  background-color: #E67F22;
+  float: right;
+  display: inline-block; }
+  /* line 128, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+  .footerright a {
+    text-decoration: none;
+    color: #FFFF; }
+  /* line 133, /home/tony/Git/Github/Practices-HTML-CSS-DIW/Ejercicio5/scss/styles.scss */
+  .footerright li {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    color: #FFFF;
+    list-style: none;
+    display: inline-block; }
+
+/*# sourceMappingURL=styles.css.map */

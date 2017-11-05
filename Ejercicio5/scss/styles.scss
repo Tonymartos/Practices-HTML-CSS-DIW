@@ -1,0 +1,142 @@
+@import 'componentes/_variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1%;
+    background-color: #2D3E50;
+
+    h1 {
+        display: inline-block;
+    }
+}
+
+.cabecera {
+    margin: auto;
+    padding: 0.7em;
+}
+
+.menu {
+    background-color: #C1392B;
+    float: right;
+    display: inline-block;
+
+    a {
+        text-decoration: none;
+        color: #FFFF;
+    }
+
+    li {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        color: #FFFF;
+        list-style: none;
+        display: inline-block;
+    }
+}
+
+body {}
+
+
+.columnaleft {
+    width: 75%;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.textouno {
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.textodos {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.columnaright {
+    float: right;
+    width: 25%;
+    display: inline-block;
+    background-color: #E67F22;
+}
+
+.cuadrouno {
+    background-color: #D25400;
+}
+
+.cuadrodos {
+    background-color: #D25400;
+
+}
+
+.columnaright::after {
+    clear: both;
+}
+
+footer::before {
+    clear: both;
+}
+
+footer {
+    padding: 1%;
+    background-color: #2D3E50;
+
+    h1 {
+        display: inline-block;
+    }
+}
+
+.cuerpofooter {
+    margin: auto;
+    padding: 0.7em;
+}
+
+.footerleft {
+    background-color: #C1392B;
+    display: inline-block;
+
+    a {
+        text-decoration: none;
+        color: #FFFF;
+    }
+
+    li {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        color: #FFFF;
+        list-style: none;
+        display: inline-block;
+    }
+
+}
+
+.footerright {
+    background-color: #E67F22;
+    float: right;
+    display: inline-block;
+
+    a {
+        text-decoration: none;
+        color: #FFFF;
+    }
+
+    li {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        color: #FFFF;
+        list-style: none;
+        display: inline-block;
+    }
+}
