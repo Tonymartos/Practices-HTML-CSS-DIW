@@ -41,10 +41,18 @@ header {
     }
 }
 
-body {}
-
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #E9E9E9;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+}
 
 .columnaleft {
+    background-color: #FFFF;
     width: 75%;
     display: inline-block;
     padding: 0.5em;
@@ -62,18 +70,19 @@ body {}
 }
 
 .columnaright {
-    float: right;
+    display: flex;
+    flex-direction: column;
     width: 25%;
     display: inline-block;
     background-color: #E67F22;
 }
 
 .cuadrouno {
-    background-color: #D25400;
+    background-color: rgb(141, 56, 0);
 }
 
 .cuadrodos {
-    background-color: #D25400;
+    background-color: rgb(139, 56, 0);
 
 }
 
