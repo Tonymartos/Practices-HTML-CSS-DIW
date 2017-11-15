@@ -86,13 +86,7 @@ body {
 
 }
 
-.columnaright::after {
-    clear: both;
-}
 
-footer::before {
-    clear: both;
-}
 
 footer {
     padding: 1%;
@@ -148,4 +142,4 @@ footer {
         list-style: none;
         display: inline-block;
     }
-}
+} 

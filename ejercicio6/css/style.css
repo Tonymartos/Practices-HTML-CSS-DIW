@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  min-height: 60em;
+  background-image: url(../img/porta-lapiceros-tacchini.png), url(../img/images.jpeg), url(../img/colored-pencils-865773_1920.jpg);
+  background-position: right,bottom,left;
+  background-repeat: no-repeat,repeat-x,no-repeat;
+  background-size: 20%,4%,70%; }
+  body p {
+    width: 65%; }
