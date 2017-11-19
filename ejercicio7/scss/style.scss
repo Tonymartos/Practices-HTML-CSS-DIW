@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/shadow.png),url(../img/bg6.jpg);
+    background-repeat: repeat-x, repeat;
+
+    h1{
+        text-align: center;
+    }
+}
+
+.contenedor{
+    background-color: #FFF;
+    margin-top: 10em;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 0.6em;
+    border-radius: 0.5em;
+    p{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}
+

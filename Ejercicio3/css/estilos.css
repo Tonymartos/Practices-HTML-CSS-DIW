@@ -43,35 +43,37 @@ header {
   margin: auto;
   width: 75%; }
 
-.logomenu {
-  display: inline-block; }
-
-.partemenu {
-  float: right; }
-
-.menu ul {
-  list-style: none; }
-
-.menu li {
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-  border-right: 1px solid grey;
-  display: inline-block;
-  font-size: 1.1em; }
-
-.menu a {
-  text-decoration: none;
-  color: green; }
-
-.menu a:hover {
-  border-bottom: 2px solid green;
-  color: #000000; }
-
 .info {
-  float: right;
   width: 40%; }
   .info p {
     display: inline; }
+
+.logomenu {
+  display: inline-block; }
+
+.menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .menu ul {
+    list-style: none; }
+  .menu li {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    border-right: 1px solid grey;
+    display: inline-block;
+    font-size: 1.1em; }
+  .menu a {
+    text-decoration: none;
+    color: green; }
+  .menu a:hover {
+    border-bottom: 2px solid green;
+    color: #000000; }
 
 body {
   margin: auto; }
@@ -79,13 +81,22 @@ body {
 .imagendestacado img {
   width: 100%; }
 
-.columnas h2 {
+.titulosegundario h2 {
   color: #026d38;
   font-family: "custom-two";
   text-align: center; }
 
-.columnas p {
-  text-align: center; }
+.columnas {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .columnas p {
+    text-align: center; }
 
 .columna {
   margin-top: 0.7em;
@@ -111,7 +122,15 @@ footer {
   background-color: #204530; }
 
 .columnasfooter {
-  margin: auto; }
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .columnafooterimg {
   margin-top: 1%;

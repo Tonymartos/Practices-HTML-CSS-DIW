@@ -8,49 +8,53 @@ header{
     border-bottom: 1px dotted black;
 }
 
-#encabezado h1{
+.encabezado h1{
     color: #51015C;
 }
 
-#encabezado img{
+.encabezado img{
     float: right;
 }
 
-#encabezado span{
+.encabezado span{
     font-size: 0.7em;
 }
 
-#destacado {
+.destacado {
     background-color: rgb(224, 224, 224);
     padding: 10%;
+    display: flex;
+    justify-content: center;
 }
 
 .destacado img{
-    float: left;
     margin-right: 3em;
+    width: 80%;
 }
 
-#seccionesdestacados{
+.seccionesdestacados{
     border-bottom: 2px dashed black;
     height: 30%;
     margin: 0 auto;
 }
 
-#seccionesdestacados h3{
+.seccionesdestacados h3{
     color: red;
 }
 
-#seccionesdestacados input{
+.seccionesdestacados input{
     color: red;
 }
 
-#seccionesdestacados img{
+.seccionesdestacados img{
     float: left;
 }
 
 
 .secciones{
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .seccionuno{
@@ -73,33 +77,41 @@ header{
   display: inline-block;    
 }
 
-#imagenes{
+.imagenes{
     margin: 1.5em;
+    display: flex;
+    justify-content: center;
 }
 
-#imagenes img{
+.imagenes img{
     margin: auto;
     padding: 0.3em;
     border: 1px solid black;
 }
 
-#piedepagina{
+.piedepagina{
     background-color: rgb(224, 224, 224);
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
 
-
-#piedepagina p{
+.piedepagina p{
     line-height: 2%;
     display: inline;
 }
 
-#piedepagina span{
-    line-height: 2%;
+.piedepagina span{
     float: right;
 }
 
-#limpiar{
-    clear: both;
+
+
+@media screen and (max-width:500px){
+    .secciones input{
+        font-size: 0.4em;
+    }
+
+    .piedepagina p span{
+      font-size: 0.5em;
+    }
 }

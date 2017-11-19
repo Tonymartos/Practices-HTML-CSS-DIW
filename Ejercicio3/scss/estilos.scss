@@ -54,16 +54,22 @@ header {
     width: $ancho_cabecera;
 }
 
+.info {
+    width: $anchoinfo;
+    p {
+        display: $alinear;
+    }
+}
+.cabecera{
+    
+}
     .logomenu{
         display: inline-block;
     }
 
-
-    .partemenu{
-        float: right;
-    }
-
     .menu { 
+        display: flex;
+        justify-content: center;
         nav{
         }
         ul {
@@ -86,13 +92,7 @@ header {
         }
     }
 
-    .info {
-        float: $derecha;
-        width: $anchoinfo;
-        p {
-            display: $alinear;
-        }
-    }
+    
 
 body {
     margin: $automargen;
@@ -102,13 +102,17 @@ body {
             width: $ancho_imagendestacado;
         }
     }
-
-    .columnas {
+    .titulosegundario{
         h2 {
             color: $colorh2;
             font-family: $letrah2;
             text-align: $centrar;
         }
+    }
+
+    .columnas {
+        display: flex;
+        justify-content: center;
         p{
             text-align: $centrar;
         }
@@ -142,6 +146,8 @@ footer {
 }
     .columnasfooter{
         margin: auto;
+        display: flex;
+        justify-content: space-between;
     }
     
     .columnafooterimg{

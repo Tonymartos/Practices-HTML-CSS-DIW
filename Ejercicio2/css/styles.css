@@ -1,0 +1,107 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; }
+
+header {
+  border-bottom: 1px dotted black; }
+
+.encabezado h1 {
+  color: #51015C; }
+
+.encabezado img {
+  float: right; }
+
+.encabezado span {
+  font-size: 0.7em; }
+
+.destacado {
+  background-color: #e0e0e0;
+  padding: 10%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.destacado img {
+  margin-right: 3em;
+  width: 80%; }
+
+.seccionesdestacados {
+  border-bottom: 2px dashed black;
+  height: 30%;
+  margin: 0 auto; }
+
+.seccionesdestacados h3 {
+  color: red; }
+
+.seccionesdestacados input {
+  color: red; }
+
+.seccionesdestacados img {
+  float: left; }
+
+.secciones {
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.seccionuno {
+  float: left;
+  width: 30%;
+  display: inline-block; }
+
+.secciondos {
+  width: 30%;
+  display: inline-block; }
+
+.secciones img {
+  float: left; }
+
+.secciontres {
+  width: 30%;
+  display: inline-block; }
+
+.imagenes {
+  margin: 1.5em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.imagenes img {
+  margin: auto;
+  padding: 0.3em;
+  border: 1px solid black; }
+
+.piedepagina {
+  background-color: #e0e0e0;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+
+.piedepagina p {
+  line-height: 2%;
+  display: inline; }
+
+.piedepagina span {
+  float: right; }
+
+@media screen and (max-width: 500px) {
+  .secciones input {
+    font-size: 0.4em; }
+  .piedepagina p span {
+    font-size: 0.5em; } }
