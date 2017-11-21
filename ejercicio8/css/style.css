@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: auto;
+  width: 50%; }
+
+.contenedor {
+  margin: 2em;
+  padding: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #bbbbbb; }
+
+.contenedor h1 {
+  color: #5e5e5e;
+  text-shadow: -5px -1px #ffffff; }

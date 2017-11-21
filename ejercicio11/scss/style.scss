@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 40%;
+    margin: 1em;
+    border: 3px solid #ff0000
+}
+
+.div1{
+    position: static;
+    background-color: rgb(235, 142, 4);
+}
+
+.div2{
+    position: relative;
+    background-color: rgb(235, 142, 4);
+}
