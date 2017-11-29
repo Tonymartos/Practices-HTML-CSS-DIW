@@ -2,82 +2,82 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+          box-sizing: border-box;
+}
 
 header {
   margin: auto;
-  width: 70%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-header a {
-  margin-left: 1em;
-  margin-right: 1em; }
+      -ms-flex-align: center;
+          align-items: center;
+}
 
 header img {
-  border-radius: 50%; }
+  border-radius: 50%;
+}
 
-.logo {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-
-.menu {
-  margin-left: 1em;
-  margin-right: 1em; }
+.menu button {
+  padding: 0.7em;
+}
 
 body {
   margin: auto;
-  width: 70%; }
+  width: 80%;
+}
 
 main {
   margin: auto;
   padding: 1em;
-  background-color: #184d8b; }
+  background-color: #184d8b;
+}
 
 main img {
   width: 30%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+}
 
 .imgmain {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 0.7em;
-  margin-bottom: 0.7em; }
+  margin-bottom: 0.7em;
+}
 
 .contenido {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+}
 
 .parrafoleft {
   padding: 0.6em;
   border-right: 3px solid orange;
-  overflow: auto; }
+  overflow: auto;
+}
 
 .parraforight {
   height: 20em;
   overflow: auto;
   padding: 0.6em;
-  border-right: 3px solid orange; }
+  border-right: 3px solid orange;
+}
+
+@media (max-width: 320px) {
+  header {
+    width: 80%;
+  }
+}
+ 
+
+ /*# sourceMappingURL= style.css.map */

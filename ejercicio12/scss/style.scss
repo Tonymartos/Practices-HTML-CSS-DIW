@@ -7,22 +7,27 @@
 header {
     background-image: url(../img/fondoheader.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
-    
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.2em;    
+}
+
+span{
+    font-weight: bold;    
 }
 
 .avatar {
     color: #0b6cd4;
     background-color: rgba(0, 0, 0, 0.555);
-    border: 3px solid #0066ff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 0.7em;    
+    padding-bottom: 0.7em;
 }
 
 .avatar img {
@@ -45,38 +50,60 @@ h2 {
     font-weight: bold;
 }
 
-.datospersonales h2{
+.datospersonales h2 {
     font-family: Arial;
 }
 
-main{
+.redess a{
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 1em;
+    background-color: #cfc0c0;
     display: flex;
     flex-flow: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.habilidad h2{
-    border-bottom: 1px solid #ccc1c1;
+main h2{
+    color: #3000a1;
 }
 
-.modulotitulo h2{
-    border-bottom: 1px solid #ccc1c1;
-}   
+footer{
+    color: #ffffff;
+    background-color: #b60d45;
+    display: flex;
+    justify-content: space-between;
+}
 
-.educacion{
-    margin-top: 0.5em;
-    width: 40%;
-    border-left: 2px solid #c97f11;    
+.contenido{
+    margin-left: 0.5em;
 }
 
 .experiencia {
     margin-top: 0.5em;
-    width: 40%;
-    border-left: 2px solid #c97f11;
+    width: 50%;
+    //border-left: 5px solid #c97f11;
 }
 
 .experiencias h2 {
     border-bottom: 1px solid #ccc1c1;
+}
+
+.habilidad h2 {
+    border-bottom: 1px solid #ccc1c1;
+}
+
+.modulotitulo {
+    border-bottom: 1px solid #000000;
+}
+
+.educacion {
+    margin-top: 0.5em;
+    width: 40%;
+    //border-left: 5px solid #c97f11;
 }
 
 .comunicacion {}
@@ -87,61 +114,64 @@ main{
     flex-direction: row;
     justify-content: space-around;
 }
-.comunicacion{
+
+.comunicacion {
     margin-top: 0.5em;
     width: 40%;
-    border-left: 2px solid #c97f11;    
+    //border-left: 5px solid #c97f11;
 }
 
 .comunicacion img {
     width: 20%;
 }
 
-.cualidades{
+.cualidades {
     margin-top: 0.5em;
     width: 40%;
-    border-left: 2px solid #c97f11;    
+    //border-left: 5px solid #c97f11;
 }
 
-.habilidad{
+.habilidad {
     margin-top: 0.5em;
     width: 40%;
-    border-left: 2px solid #c97f11;        
+    //border-left: 5px solid #c97f11;
 }
 
-.habilidad h3{
-    color: #065ee2;
+.habilidad h3 {
+    color: #7e7c00;
 }
 
-.habilidades{
+.habilidades {
     display: flex;
     justify-content: space-around;
 }
 
-.modulohabilidades img{
+.modulohabilidades img {
     width: 90%;
 }
 
-.habilidadadicional{
+.habilidadadicional {
 }
 
-.intereses{
+.intereses {
     margin-top: 0.5em;
     width: 40%;
-    border-left: 2px solid #c97f11;    
+    //border-left: 5px solid #c97f11;
 }
 
-.intereses img{
-    width: 90%;
+.intereses img {
+    width: 70%
 }
 
-.modulointereses{
+
+
+.modulointereses {
     display: flex;
     justify-content: center;
     margin-top: 0.7em;
 }
 
-.interes{
+.interes {
     display: flex;
     flex-direction: column;
     align-items: center;
