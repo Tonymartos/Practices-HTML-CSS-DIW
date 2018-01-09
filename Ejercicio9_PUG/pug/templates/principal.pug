@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Bambi S.L
+        link(rel="stylesheet", href="css/style.css")
+    body
+        header
+            a(href="index.html"): img(src="img/logo1.jpg")
+            h1 Bambi S.L
+            div.menu
+                nav
+                    ul
+                        - var enlaces = ["iglesia.html","naturaleza.html","noche.html","personas.html","trabajo.html","index.html"]
+                        each valor, index in ['Iglesia','Naturaleza','Noche','Personas','Trabajo','Animales']
+                            a(href=enlaces[index]) 
+                                button #{valor}
+        main
+            div.imgmain
+                block imagen
+            div.contenido
+                div.parrafoleft
+                    block parrafoizquierdo
+                div.parraforight
+                    block parrafoderecho
+                    

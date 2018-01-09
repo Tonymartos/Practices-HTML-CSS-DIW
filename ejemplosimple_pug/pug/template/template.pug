@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+    body
+        main
+            header
+                h1 Desarrollo de Aplicaciones
+                h2 Prueba de pug
+        aside
+            h3 Menu
+            ul
+                - var enlaces = ["rosa.html","clavel.html","margarita.html","amapola.html"]
+                each valor, index in ['Rosa','Clave','Margarita','Amapola']
+                    li: a(href=enlaces[index]) #{valor}
+        section
+            article
+                h2 Ultimas noticias
+                div.contenido.articulo
+                    img(src="flores/imagen1.jpg")
+                    p.
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, eius neque! Harum molestiae explicabo consequatur ab culpa beatae eius, quaerat earum. Fugiat sequi voluptatibus, explicabo dolorum fuga molestiae cum porro maiores eligendi, totam molestias. Quos, amet earum perferendis atque aliquid voluptas praesentium ab porro harum a laborum. Voluptate, nulla expedita.
+            footer
+                p.
+                 Realizado con pug
